@@ -3,10 +3,10 @@
   "version": "2.1.2",
   "description": "jQuery insert plugin for MediumEditor",
   "license": "MIT",
-  "homepage": "https://github.com/orthes/medium-editor-insert-plugin",
+  "homepage": "https://github.com/bsdo64/medium-editor-insert-plugin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/orthes/medium-editor-insert-plugin.git"
+    "url": "https://github.com/bsdo64/medium-editor-insert-plugin.git"
   },
   "author": {
     "name": "Pavel Linkesch",
