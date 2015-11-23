@@ -467,7 +467,7 @@
 
             left = $p.position().left - parseInt($buttons.find('.medium-insert-buttons-addons').css('left'), 10) - parseInt($buttons.find('.medium-insert-buttons-addons a:first').css('margin-left'), 10);
             left = left < 0 ? $p.position().left : left;
-            top = $p.position().top + parseInt($p.css('margin-top'), 10);
+            top = $p.position().top + parseInt($p.css('margin-top'), 10) + $('.nano-content').scrollTop();
 
             if (activeAddon) {
                 if ($p.position().left !== $first.position().left) {
